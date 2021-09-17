@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2. gyakorlat</title>
+    <style>
+        body { font-size: larger; color: #eee; background-color: #222 }
+        table, tr, td, th { border: 1px solid #eee; border-collapse: collapse }
+        .fontos { font-size: 72px }
+        #nagyonfontos { font-size: 200px }
+        /* Betűtípusok */
+        .arial { font-family: 'Arial' }
+        .comicsans { font-family: 'Comic Sans MS' }
+        /* Betűstílusok */
+        .vastag { font-weight: bold }
+        .dolt { font-style: italic }
+        /* Színek */
+        .piros { color: #f00 }
+        .zold { color: #0f0 }
+        .kek { color: #00f }
+        .kiemeles { background-color: #ff0 }
+        .keret { border: 1px solid #f0f }
+    </style>
+</head>
+<body>
+    <h1>2. gyakorlat</h1>
+    <p>Ez egy <span class="piros">bekezdés.</span></p>
+    <div>
+        <p class="fontos"><span class="zold">zöld</span></p>
+        <p class="fontos"><span class="piros">piros</span> <b>b</b> <span class="kek">kék</span></p>
+    </div>
+    <div>
+        <p class="fontos"><span class="dolt">dőlt</span></p>
+        <p class="fontos"><span class="vastag">vastag</span></p>
+    </div>
+    <p id="bekezdes">Reggel 8 óra 39 perc van.</p>
+    <table>
+        <tr>
+            <th>Gyakorlat #</th>
+            <th>Téma</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>JS alapok</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>DOM</td>
+        </tr>
+    </table>
+    <table id="filmek"></table>
+    <ul id="album"></ul>
+    <p id="szinezendo" data-szin="piros" data-szam="100">Lorem ipsum dolor sit amet.</p>
+    
+    <input type="text">
+    <input type="text" name="keresztnev">
+
+    <script src="filmek.js"></script>
+    <script src="album.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
