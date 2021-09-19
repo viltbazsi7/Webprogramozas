@@ -1,4 +1,4 @@
-# Házi feladat
+# Házi feladat (1 pont)
 
 Az AmonGalactica űrutazási-ügynökség az elmúlt időszakban rengeteg meghibásodással nézett szembe. Az igazgatói tanács belső vizsgálatot rendelt el az ügyben. Első körben a pilótákat fogják megvizsgálni, akiknek az adatai lentebb láthatóak:
 
