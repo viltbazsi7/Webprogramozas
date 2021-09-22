@@ -14,6 +14,7 @@ function toggleSelection(event) {
     event.target.classList.toggle('selected');
 }
 
+
 // stackoverflow #423432. kérdésre 213. válasz
 for (let helyszin of helyszinek) {
     let li = document.createElement('li');
