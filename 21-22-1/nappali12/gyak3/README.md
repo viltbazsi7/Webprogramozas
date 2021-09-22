@@ -2,7 +2,7 @@
 
 Az AmonGalactica űrutazási-ügynökség megtalálta a szabotőrt, így elkezdődhet a helyreállítás. A járművek javításra szorulnak, a technikusoknak pedig alkatrészek kellenek. Elkészítettek egy listát a gyakran használt alkatrészekből és szerszámokból, azonban még nem tudják, hogy miből mennyi fog kelleni.
 
-```
+```javascript
 [
     'Fluxuskondenzátor',
     '1x2x2-es 87552pb016a panel',

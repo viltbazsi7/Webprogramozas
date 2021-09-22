@@ -2,7 +2,7 @@
 
 Az AmonGalactica űrutazási-ügynökség igazgatói tanácsa éppen belső vizsgálatot végez az űrhajóikon egyre gyakrabban felbukkanó meghibásodások ügyében. Most egy nagyon fontos utazást kellett megszakítani az indításkor. A hiba okát a fedélzeti számítógép naplójából ki lehet deríteni, azonban a kiolvasáshoz fel kell dolgozni a tartalmát.
 
-```
+```javascript
 [
     {
         tipus: 'siker',

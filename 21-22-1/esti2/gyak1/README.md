@@ -2,7 +2,7 @@
 
 Az AmonGalactica űrutazási-ügynökség az elmúlt időszakban rengeteg meghibásodással nézett szembe. Az igazgatói tanács belső vizsgálatot rendelt el az ügyben. Első körben a pilótákat fogják megvizsgálni, akiknek az adatai lentebb láthatóak:
 
-```
+```javascript
 [
     {
         nev: 'Zöld',
