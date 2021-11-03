@@ -1,0 +1,1 @@
+2020-21-1. évfolyami zárthelyi mintamegoldás

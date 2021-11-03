@@ -1,0 +1,1 @@
+2020-21-1. pót évfolyami zárthelyi mintamegoldás
