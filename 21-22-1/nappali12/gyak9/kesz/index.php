@@ -51,7 +51,7 @@ if (count($_POST) > 0) {
             'has_padawan' => (isset($_POST['haspadawan']) ? true : false),
             'rank' => $_POST['rank'],
         ];
-        var_dump($jedi);
+        //var_dump($jedi);
         $jedik = json_decode(file_get_contents('jedik.json'), true);
         $jedik[] = $jedi;
         file_put_contents('jedik.json', json_encode($jedik, JSON_PRETTY_PRINT));
@@ -121,20 +121,20 @@ function allapottart($azon) {
                 </div>
                 <div class="mb-3">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="rank" value="master" id="master">
+                        <input class="form-check-input" type="radio" name="rank" value="master" id="master" <?= allapottart('rank') == 'master' ? 'checked' : '' ?>>
                         <label class="form-check-label" for="master">Jedi mester</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="rank" value="knight" id="knight">
+                        <input class="form-check-input" type="radio" name="rank" value="knight" id="knight" <?= allapottart('rank') == 'knight' ? 'checked' : '' ?>>
                         <label class="form-check-label" for="knight">Jedi lovag</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="rank" value="padawan" id="padawan">
+                        <input class="form-check-input" type="radio" name="rank" value="padawan" id="padawan" <?= allapottart('rank') == 'padawan' ? 'checked' : '' ?>>
                         <label class="form-check-label" for="padawan">Padawan</label>
                     </div>
                 </div>
                 <div class="mb-3">
-                    <input class="form-check-input" type="checkbox" name="haspadawan" id="haspadawan">
+                    <input class="form-check-input" type="checkbox" name="haspadawan" id="haspadawan" <?= allapottart('haspadawan') ? 'checked' : '' ?>>
                     <label class="form-check-label" for="haspadawan">Van padawanja?</label>
                 </div>
                 <div class="mb-3">
@@ -147,7 +147,7 @@ function allapottart($azon) {
     </div>
 </div>
 <footer class="container-fluid">
-    <hr>
+<hr>
 <p>Copyright &copy; 19 YE Galaktikus Köztársaság <small>(szerk.: mi az a Yavin előtt?)</small></p>
 </footer>
 </body>

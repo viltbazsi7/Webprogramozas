@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Aaron Franta",
+        "id": "JD001642",
+        "matekeredmeny": 15,
+        "planet": "Felucia",
+        "has_padawan": true,
+        "rank": "master"
+    },
+    {
+        "name": "Tomar Bucsanskywalker",
+        "id": "JD000621",
+        "matekeredmeny": 15,
+        "planet": "Kashyyyk",
+        "has_padawan": false,
+        "rank": "knight"
+    },
+    {
+        "name": "Gipss J'kab",
+        "id": "JD123456",
+        "matekeredmeny": 15,
+        "planet": "Felucia",
+        "has_padawan": false,
+        "rank": "padawan"
+    },
+    {
+        "name": "Lhora Mirandarin",
+        "id": "JD011111",
+        "matekeredmeny": 15,
+        "planet": "Kamino",
+        "has_padawan": false,
+        "rank": "knight"
+    },
+    {
+        "name": "Vik-Thor Grey",
+        "id": "JD001400",
+        "matekeredmeny": 15,
+        "planet": "Mandalore",
+        "has_padawan": false,
+        "rank": "master"
+    }
+]
